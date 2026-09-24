@@ -12,7 +12,6 @@ python train_bl.py \
   --rms_normalize true \
   --target_rms 0.05
 
-
 python infer_bl.py \
   --timit_root /scratch/ningyuan/TIMIT/data \
   --ckpt /scratch/ningyuan/Phoneme_classifier/exp_bl_2k/best.pt \
