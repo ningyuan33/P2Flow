@@ -22,3 +22,11 @@ python infer_bl.py \
   --downsample_sr 2000 \
   --rms_normalize true \
   --target_rms 0.05
+
+python draw_phoneme.py \
+  --wav /scratch/ningyuan/TIMIT/data/TEST/DR1/FAKS0/SA1.WAV.wav \
+  --ckpt /scratch/ningyuan/Phoneme_classifier/exp_bl_2k/best.pt \
+  --out /scratch/ningyuan/Phoneme_classifier/test_exp_bl_2k/SA1.png \
+  --downsample_sr 2000 \
+  --rms_normalize true \
+  --target_rms 0.05
